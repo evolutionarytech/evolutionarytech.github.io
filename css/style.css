@@ -53,104 +53,40 @@ text-align: center;
   letter-spacing: 1px;
   margin: 0;
   line-height: 1.5;
-  color: #000;
+  color: #fff;
 }
 .owl-theme .owl-controls .owl-page span {
   background: #4676fa;
 }
-
-button,
-input,
-select,
-textarea {
-  font-family: sans-serif; }
-
-
-button,
-input,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  margin: 0;
-  vertical-align: baseline; }
-
-button,
-input {
-  line-height: normal; }
-
-button,
-select {
-  text-transform: none; }
-
-
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
-
-
-textarea {
-  overflow: auto;
-  vertical-align: top; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
+#portfolio{
+  color: #fff;
+  background-color: #3152b0;
+}
 
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box; }
+  -webkit-box-sizing: border-box; 
+}
 
-
-
-#formview textarea {
-  height: 10.3em; }
-
-input, textarea {
-  font-size: 0.8em;
-  font-family: 'proxima-nova-soft', sans-serif;
-  border: 1px solid #ddd;
-  background: #fff;
-  padding: 0.9em;
-  transition: all 0.3s ease-in-out;
-  width: 100%; }
-  input.code, textarea.code {
-    font-family: "source-code-pro", monospace; }
-  input:focus, textarea:focus {
-    border-color: #2A735B;
-    outline: none;
-    box-shadow: 0 0 5px 1px #359173; }
-
-input[type="checkbox"],
-input[type="radio"] {
-  width: auto;
-  margin-right: 6px; }
-
-form input, form textarea {
-  margin-bottom: 0.5em; }
-
-button, a.button {
-  font-size: 1em;
+.btn {
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 0px;
+  font-weight: 400;
+  color: #fff;
   text-transform: uppercase;
-  font-weight: 600;
-  border: 2px solid #359173;
-  color: #359173;
-  background: transparent;
-  line-height: 1em;
-  padding: 0.6em 0.9em;
-  transition: all 0.3s ease-in-out; }
-  button:hover, a.button:hover {
-    border-color: #2A735B;
-    color: #2A735B; }
-    button:hover.emphasis, a.button:hover.emphasis {
-      color: white;
-      background-color: #2A735B; }
-  button[disabled], button[disabled]:hover, a.button[disabled], a.button[disabled]:hover {
-    color: #b0e2d2;
-    border-color: #b0e2d2; }
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+}
 
-
-
-
+.btn-common {
+  border: 2px solid #4676fa;
+  background-color: #4676fa;
+  position: relative;
+  z-index: 1;
+}
